@@ -1,2 +1,5 @@
 # THz-Scanning-Visualisation
-A python file importing .txt and .npy files of the same name - it was important that GIFs, PNGs and other products created by this code is placed in directory next to imported files (easier accesibility when you have a lot of various data carefully organised). Imported files where saved in laboratory with various Terahertz equipment
+A python file importing .txt and .npy files of the same name - it was important that GIFs, PNGs and other products created by this code is placed in directory next to imported files (easier accessibility when you have a lot of various data carefully organised). Imported files where saved in laboratory with various Terahertz equipment
+
+Data measurement was taken with TeraSense 1024x1024 camera for Terahertz radiation and saved as text and numpy files - these can be read and visualised by my submitted code. I needed all images taken in optical Z path (camera was moving forward from default position to position Z closer to setup starting point = radiation source). Each Z image shows propagating wavefront shape. So for fast viewing these images are also connected into GIF file.
+I decided to make my own four definitions (later normalised) on which python code suggests three highest scored Z images - to find sharpest real, inverted image produced by a magnifying optical system on this optical path. 
